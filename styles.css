@@ -1,0 +1,111 @@
+body {
+    background: #f6eddd;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Arial', sans-serif;
+  }
+
+  a {
+    color: black;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  a:active {
+
+    color: blue;
+  }
+
+  a:visited {
+    color: aqua;
+
+  }
+ 
+  .shapka {
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+
+  .texture:last-child {
+margin-left: 50px;
+align-items: center;
+  }
+
+
+
+  .avatar {
+     width: 200px; 
+    border-radius: 22px;
+    box-shadow: 4px 4px 14px rgb(242,205,202);
+    }
+  
+  .info p {
+    color: #75161a;
+    font-style: italic;
+    padding: 5px;
+    /* width: 100%; */
+    }
+
+  .prehot {
+    background: none;
+  }  
+
+.hot {
+
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 22px;
+}
+
+.bg-yellow {
+    background: #fff9dc;
+}
+
+.bg-red {
+    background: #e5ffe7;
+}
+
+.bg-green {
+    background: rgba(233,118,120,0.33);
+
+}
+
+.spisok {
+padding: 20px;
+}
+
+.spisok li {
+color: red;
+margin-bottom: 20px;
+
+}
+
+/* POSITION */
+
+.position {
+position: relative;
+margin-top: 40px;
+padding: 20px;
+
+}
+
+.box {
+position: fixed;    
+bottom: 50px;
+right: 50px;
+border-radius: 22px;
+width: 120px;
+height: 100px;
+
+}
+
+.lol {
+width: 120px; 
+border-radius: 22px;
+box-shadow: 4px 4px 14px rgb(242,205,202);
+position: relative;
+height: 100px;
+}
